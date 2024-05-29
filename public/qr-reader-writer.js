@@ -1,3 +1,5 @@
+const jsQR = require("jsqr");
+
 document.getElementById('startButton').addEventListener('click', startQRCodeReader);
 
 function startQRCodeReader() {
